@@ -1,0 +1,23 @@
+{
+  "name": "fcc-url-shortener",
+  "version": "1.0.0",
+  "description": "FCC URL Shortener Microservice",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "fcc",
+    "url",
+    "shortner",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "3.8.23",
+    "tingodb": "^0.5.1",
+    "tungus": "0.0.5",
+    "valid-url": "^1.0.9"
+  },
+  "author": "koder12"
+}
